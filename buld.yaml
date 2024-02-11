@@ -1,0 +1,8 @@
+Pipeline {
+ 
+  Stages{
+    Stage(Bulid) {
+      Steps {
+        Sh 'make' 
+
+      
