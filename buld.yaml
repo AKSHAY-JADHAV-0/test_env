@@ -3,6 +3,9 @@ Pipeline {
   Stages{
     Stage(Bulid) {
       Steps {
-        Sh 'make' 
+        Sh 'make'
+        junit '**/target/*.xml'
+       }
+     }
 
       
